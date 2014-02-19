@@ -1,0 +1,4 @@
+simhash
+=======
+
+simple simhash
