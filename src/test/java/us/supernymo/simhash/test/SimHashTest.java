@@ -1,4 +1,4 @@
-package com.poisonprose.simhash.test;
+package us.supernymo.simhash.test;
 
 
 import static org.junit.Assert.assertEquals;
@@ -11,7 +11,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.poisonprose.simhash.SimHashFactory;
+import us.supernymo.simhash.SimHashFactory;
 
 /**
  * 

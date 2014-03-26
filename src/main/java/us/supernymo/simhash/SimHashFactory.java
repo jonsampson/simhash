@@ -1,4 +1,4 @@
-package com.poisonprose.simhash;
+package us.supernymo.simhash;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
