@@ -6,13 +6,9 @@ import java.util.Arrays;
 import java.util.BitSet;
 import java.util.Iterator;
 
+
 /**
  * A thread-safe implementation for generating SimHashes.
- * 
- * Useful reading on the subject and of course you may find Moses Charikar paper as pdf with Google:
- * https://web.archive.org/web/20130928112139/http://matpalm.com/resemblance/simhash/
- * and
- * https://web.archive.org/web/20140219034905/http://titouangalopin.com/blog/2013/11/simhash-or-the-way-to-compare-quickly-two-datasets
  * 
  * @author jsampson
  */
