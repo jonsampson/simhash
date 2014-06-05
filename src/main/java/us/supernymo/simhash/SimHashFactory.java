@@ -103,7 +103,7 @@ public class SimHashFactory {
 	 * @return BitSet valueOf the byte array produced by
 	 *         <code>messageDigest</code>
 	 */
-	private BitSet getTokenBitSet(MessageDigest messageDigest, String token) {
+	protected BitSet getTokenBitSet(MessageDigest messageDigest, String token) {
 		byte[] tokenHash = messageDigest.digest(token.getBytes());
 		messageDigest.reset();
 		return BitSet.valueOf(tokenHash);
